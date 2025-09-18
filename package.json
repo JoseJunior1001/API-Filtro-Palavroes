@@ -1,0 +1,12 @@
+{
+    "nome": "API Filtro de Palavras",
+    "version":"1.0.0",
+    "description":"API que filtra palavras impróprias.",
+    "main":"server.js",
+    "scripts":{
+        "start":"node server.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}
