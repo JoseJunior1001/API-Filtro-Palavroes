@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const palavras = require('../API-Filtro-Palavras/impropias.json');
+const palavras = require('./impropias.json');
 
 
 app.get('/verificacao', (req, res) =>  {
@@ -19,4 +19,5 @@ app.get('/verificacao', (req, res) =>  {
 });
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
+
 })
